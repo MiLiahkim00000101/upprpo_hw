@@ -18,7 +18,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       
       - name: Execution of my code:
-      - run: |
+        run: |
           ls -a
           gcc main.c -o main
           ./main
