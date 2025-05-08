@@ -16,5 +16,9 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-
-      - run: ls -a && gcc main.c -o main && ./main
+      
+      - name: Execution of my code:
+      - run: |
+		ls -a
+		gcc main.c -o main
+		./main
