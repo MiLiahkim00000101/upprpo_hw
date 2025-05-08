@@ -19,6 +19,6 @@ jobs:
       
       - name: Execution of my code:
       - run: |
-		ls -a
-		gcc main.c -o main
-		./main
+          ls -a
+          gcc main.c -o main
+          ./main
